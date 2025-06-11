@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Data Extractor</title>
+    <style>
+        body {
+            width: 300px;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            background: #0078d4;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #output {
+            white-space: pre-wrap;
+            max-height: 300px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-top: 10px;
+            background: #f9f9f9;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Data Extractor</h3>
+    <button id="extractRedirect">Extract & Redirect</button>
+    <button id="viewData">View Extracted Data</button>
+    <div id="output">Click a button to begin</div>
+    <script src="popup.js"></script>
+</body>
+
+</html>

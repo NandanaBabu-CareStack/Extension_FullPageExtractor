@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Page Data Extractor",
+  "version": "1.0",
+  "description": "Extracts page data with redirect options",
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
